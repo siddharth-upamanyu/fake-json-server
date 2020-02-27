@@ -1,164 +1,442 @@
 {
-  userCustomization: {
-  userLogo: 'https://images-static.moxiworks.com/static/images/br/moxi/MoxiWorks_logo_lightBG-300x65.png',
-  userBackground: 'green'
-},
-  application: [
-  {
-    id: 'https://rdesk.example.org/profile/card#me',
-    name: 'RDesk',
-    description: 'CRM from Real Estate Digital',
-    logo: {
-      url: '/static/img/red-logo.jpg'
-    },
-    permissions: [
-      permission.profile,
-      permission.contact_read,
-      permission.contact_write,
-      permission.lead_read,
-      permission.lead_write
-    ],
-    group: [
-      'crm'
-    ]
-  },
-  {
-    id: 'https://ace.example.org/profile/card#me',
-    name: 'ACE',
-    description: 'Real Estate Sales Success System.',
-    logo: {
-      url: '/static/img/ace_logo.jpg'
-    },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'crm'
-    ]
-  },
-  {
-    id: 'https://reliancenetwork.example.org/profile/card#me',
-    name: 'Reliance Network',
-    description: 'One platform to deliver Stunning Websites, Quality Leads and More Closings.',
-    logo: {
-      url: 'https://www.reliancenetwork.com/reliancenetwork/img/logo.png'
-    },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'crm'
-    ]
-
-  },
-  {
-    id: 'https://moxiworks.example.org/profile/card#me',
-    name: 'Moxiworks',
-    description: 'Dramatically increase your repeat and referral business with the help of MoxiWorks tools and services.',
-    logo: {
-      url: 'https://images-static.moxiworks.com/static/images/br/moxi/MoxiWorks_logo_lightBG-300x65.png'
-    },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'crm'
-    ]
-  },
-  {
-    id: 'https://adwerks.example.org/profile/card#me',
-    name: 'Adwerks',
-    description: 'Brilliantly simple digital advertising for real estate, mortgage, insurance, and wealth management.',
-    logo: { url: 'https://cdn.adwerx.com/assets/v2/images/logos/header_logos/adwerx-header-logo@2x-e951094f78.png' },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'featured',
-      'marketing'
-    ]
-  },
-  {
-    id: 'https://chalkdigital.example.org/profile/card#me',
-    name: 'Chalk Digital',
-    description: 'Chalk Digital leverages the power of data, location, and time to energize your companys promotional efforts with intelligent mobile advertising solutions',
-    logo: { url: 'http://www.chalkdigital.com/wp-content/uploads/2016/07/CD-New.png' },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'featured',
-      'marketing'
-    ]
-  },
-  {
-    id: 'https://marketleader.example.org/profile/card#me',
-    name: 'Market Leader',
-    description: 'Everything you need to generate leads and convert them into clients. Website, CRM, Marketing Design Center',
-    logo: { url: 'https://www.marketleader.com/wp-content/uploads/2016/05/mastheadLogo.png' },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'featured'
-    ]
-  },
-  {
-    id: 'https://imprev.example.org/profile/card#me',
-    name: 'Imprev',
-    description: 'Marketing automation services for Real Estate',
-    logo: { url: 'https://imprev.com/wp-content/uploads/2017/09/logo.png' },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'featured',
-      'marketing'
-    ]
-  },
-  {
-    id: 'https://upsidedoor.example.org/profile/card#me',
-    name: 'Upside Door',
-    description: 'An objective resource to help your clients make smart decisions.',
-    logo: {
-      url: 'https://scontent-sjc3-1.cdninstagram.com/vp/a6fe756b4bdc288e4b59392b674b7823/5D17B586/t51.2885-19/s320x320/51053511_2291097917776179_4030393561059950592_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com',
-      backgroundColor: 'black'
-    },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'featured',
-      'marketing'
-    ]
-  },
-  {
-    id: 'https://docebo.example.org/profile/card#me',
-    name: 'Docebo',
-    description: 'Lerning management system',
-    logo: {
-      url: 'https://www.docebo.com/wp-content/uploads/2017/06/logo_docebo_color.svg'
-    },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'paperless'
-    ]
-  },
-  {
-    id: 'https://roqlogic.example.org/profile/card#me',
-    name: 'Roqlogic',
-    description: 'Marketing center',
-    logo: { url: 'https://roqlogic.com/wp-content/uploads/2018/02/red-roq-grey-1-260x61.png' },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'marketing'
-    ]
-  },
-  {
-    id: 'https://rpr.example.org/profile/card#me',
-    name: 'RPR',
-    description: 'Comprehensive data, powerful analytics and client friendly reports',
-    logo: { url: 'https://blog.narrpr.com/wp-content/uploads/2012/08/2015-RPR-Logo_01.png' },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'marketing'
-    ]
-  },
-  {
-    id: 'https://rismedia.example.org/profile/card#me',
-    name: 'Rismedia',
-    description: 'Automatic content platform',
-    logo: { url: 'https://rismediacontentsolutions.com/img/rismedia_ContentSolutions-logo.jpg' },
-    permissions: ALL_PERMISSIONS,
-    group: [
-      'featured',
-      'marketing'
-    ]
-  }
-
-]
+	"userCustomization": {
+		"userLogo": "https://images-static.moxiworks.com/static/images/br/moxi/MoxiWorks_logo_lightBG-300x65.png",
+		"userBackground": "green"
+	},
+	"application": [{
+			"id": "https://rdesk.example.org/profile/card#me",
+			"name": "RDesk",
+			"description": "CRM from Real Estate Digital",
+			"logo": {
+				"url": "/static/img/red-logo.jpg"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"crm"
+			]
+		},
+		{
+			"id": "https://ace.example.org/profile/card#me",
+			"name": "ACE",
+			"description": "Real Estate Sales Success System.",
+			"logo": {
+				"url": "/static/img/ace_logo.jpg"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"crm"
+			]
+		},
+		{
+			"id": "https://reliancenetwork.example.org/profile/card#me",
+			"name": "Reliance Network",
+			"description": "One platform to deliver Stunning Websites, Quality Leads and More Closings.",
+			"logo": {
+				"url": "https://www.reliancenetwork.com/reliancenetwork/img/logo.png"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"crm"
+			]
+		},
+		{
+			"id": "https://moxiworks.example.org/profile/card#me",
+			"name": "Moxiworks",
+			"description": "Dramatically increase your repeat and referral business with the help of MoxiWorks tools and services.",
+			"logo": {
+				"url": "https://images-static.moxiworks.com/static/images/br/moxi/MoxiWorks_logo_lightBG-300x65.png"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"crm"
+			]
+		},
+		{
+			"id": "https://adwerks.example.org/profile/card#me",
+			"name": "Adwerks",
+			"description": "Brilliantly simple digital advertising for real estate, mortgage, insurance, and wealth management.",
+			"logo": {
+				"url": "https://cdn.adwerx.com/assets/v2/images/logos/header_logos/adwerx-header-logo@2x-e951094f78.png"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"featured",
+				"marketing"
+			]
+		},
+		{
+			"id": "https://chalkdigital.example.org/profile/card#me",
+			"name": "Chalk Digital",
+			"description": "Chalk Digital leverages the power of data, location, and time to energize your companys promotional efforts with intelligent mobile advertising solutions",
+			"logo": {
+				"url": "http://www.chalkdigital.com/wp-content/uploads/2016/07/CD-New.png"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"featured",
+				"marketing"
+			]
+		},
+		{
+			"id": "https://marketleader.example.org/profile/card#me",
+			"name": "Market Leader",
+			"description": "Everything you need to generate leads and convert them into clients. Website, CRM, Marketing Design Center",
+			"logo": {
+				"url": "https://www.marketleader.com/wp-content/uploads/2016/05/mastheadLogo.png"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"featured"
+			]
+		},
+		{
+			"id": "https://imprev.example.org/profile/card#me",
+			"name": "Imprev",
+			"description": "Marketing automation services for Real Estate",
+			"logo": {
+				"url": "https://imprev.com/wp-content/uploads/2017/09/logo.png"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"featured",
+				"marketing"
+			]
+		},
+		{
+			"id": "https://upsidedoor.example.org/profile/card#me",
+			"name": "Upside Door",
+			"description": "An objective resource to help your clients make smart decisions.",
+			"logo": {
+				"url": "https://scontent-sjc3-1.cdninstagram.com/vp/a6fe756b4bdc288e4b59392b674b7823/5D17B586/t51.2885-19/s320x320/51053511_2291097917776179_4030393561059950592_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+				"backgroundColor": "black"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"featured",
+				"marketing"
+			]
+		},
+		{
+			"id": "https://docebo.example.org/profile/card#me",
+			"name": "Docebo",
+			"description": "Lerning management system",
+			"logo": {
+				"url": "https://www.docebo.com/wp-content/uploads/2017/06/logo_docebo_color.svg"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"paperless"
+			]
+		},
+		{
+			"id": "https://roqlogic.example.org/profile/card#me",
+			"name": "Roqlogic",
+			"description": "Marketing center",
+			"logo": {
+				"url": "https://roqlogic.com/wp-content/uploads/2018/02/red-roq-grey-1-260x61.png"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"marketing"
+			]
+		},
+		{
+			"id": "https://rpr.example.org/profile/card#me",
+			"name": "RPR",
+			"description": "Comprehensive data, powerful analytics and client friendly reports",
+			"logo": {
+				"url": "https://blog.narrpr.com/wp-content/uploads/2012/08/2015-RPR-Logo_01.png"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"marketing"
+			]
+		},
+		{
+			"id": "https://rismedia.example.org/profile/card#me",
+			"name": "Rismedia",
+			"description": "Automatic content platform",
+			"logo": {
+				"url": "https://rismediacontentsolutions.com/img/rismedia_ContentSolutions-logo.jpg"
+			},
+			"permissions": [{
+				"profile": {
+					"description": "view agent & office profiles",
+					"id": "profile_read"
+				},
+				"contact_read": {
+					"description": "see contact events",
+					"id": "contact_read"
+				},
+				"contact_write": {
+					"description": "modify your contact information",
+					"id": "contact_write"
+				},
+				"lead_read": {
+					"description": "see your leads",
+					"id": "lead_read"
+				},
+				"lead_write": {
+					"description": "create and update your leads",
+					"id": "lead_write"
+				}
+			}],
+			"group": [
+				"featured",
+				"marketing"
+			]
+		}
+	]
 }
