@@ -3,7 +3,7 @@
   userLogo: 'https://images-static.moxiworks.com/static/images/br/moxi/MoxiWorks_logo_lightBG-300x65.png',
   userBackground: 'green'
 },
-applications: [
+  application: [
   {
     id: 'https://rdesk.example.org/profile/card#me',
     name: 'RDesk',
