@@ -11,22 +11,6 @@
 				"url": "/static/img/red-logo.jpg"
 			},
 			"permissions": [{
-				"profile": {
-					"description": "view agent & office profiles",
-					"id": "profile_read"
-				},
-				"contact_read": {
-					"description": "see contact events",
-					"id": "contact_read"
-				},
-				"contact_write": {
-					"description": "modify your contact information",
-					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
-				},
 				"lead_write": {
 					"description": "create and update your leads",
 					"id": "lead_write"
@@ -47,19 +31,7 @@
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
-				},
-				"contact_read": {
-					"description": "see contact events",
-					"id": "contact_read"
-				},
-				"contact_write": {
-					"description": "modify your contact information",
-					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
-				},
+				}
 				"lead_write": {
 					"description": "create and update your leads",
 					"id": "lead_write"
@@ -84,15 +56,7 @@
 				"contact_read": {
 					"description": "see contact events",
 					"id": "contact_read"
-				},
-				"contact_write": {
-					"description": "modify your contact information",
-					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
-				},
+				}
 				"lead_write": {
 					"description": "create and update your leads",
 					"id": "lead_write"
@@ -117,18 +81,6 @@
 				"contact_read": {
 					"description": "see contact events",
 					"id": "contact_read"
-				},
-				"contact_write": {
-					"description": "modify your contact information",
-					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
-				},
-				"lead_write": {
-					"description": "create and update your leads",
-					"id": "lead_write"
 				}
 			}],
 			"group": [
@@ -146,18 +98,6 @@
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
-				},
-				"contact_read": {
-					"description": "see contact events",
-					"id": "contact_read"
-				},
-				"contact_write": {
-					"description": "modify your contact information",
-					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
 				},
 				"lead_write": {
 					"description": "create and update your leads",
@@ -177,14 +117,6 @@
 				"url": "http://www.chalkdigital.com/wp-content/uploads/2016/07/CD-New.png"
 			},
 			"permissions": [{
-				"profile": {
-					"description": "view agent & office profiles",
-					"id": "profile_read"
-				},
-				"contact_read": {
-					"description": "see contact events",
-					"id": "contact_read"
-				},
 				"contact_write": {
 					"description": "modify your contact information",
 					"id": "contact_write"
@@ -218,18 +150,6 @@
 				"contact_read": {
 					"description": "see contact events",
 					"id": "contact_read"
-				},
-				"contact_write": {
-					"description": "modify your contact information",
-					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
-				},
-				"lead_write": {
-					"description": "create and update your leads",
-					"id": "lead_write"
 				}
 			}],
 			"group": [
@@ -247,22 +167,6 @@
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
-				},
-				"contact_read": {
-					"description": "see contact events",
-					"id": "contact_read"
-				},
-				"contact_write": {
-					"description": "modify your contact information",
-					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
-				},
-				"lead_write": {
-					"description": "create and update your leads",
-					"id": "lead_write"
 				}
 			}],
 			"group": [
@@ -282,19 +186,7 @@
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
-				},
-				"contact_read": {
-					"description": "see contact events",
-					"id": "contact_read"
-				},
-				"contact_write": {
-					"description": "modify your contact information",
-					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
-				},
+				}
 				"lead_write": {
 					"description": "create and update your leads",
 					"id": "lead_write"
@@ -313,14 +205,6 @@
 				"url": "https://www.docebo.com/wp-content/uploads/2017/06/logo_docebo_color.svg"
 			},
 			"permissions": [{
-				"profile": {
-					"description": "view agent & office profiles",
-					"id": "profile_read"
-				},
-				"contact_read": {
-					"description": "see contact events",
-					"id": "contact_read"
-				},
 				"contact_write": {
 					"description": "modify your contact information",
 					"id": "contact_write"
@@ -346,14 +230,6 @@
 				"url": "https://roqlogic.com/wp-content/uploads/2018/02/red-roq-grey-1-260x61.png"
 			},
 			"permissions": [{
-				"profile": {
-					"description": "view agent & office profiles",
-					"id": "profile_read"
-				},
-				"contact_read": {
-					"description": "see contact events",
-					"id": "contact_read"
-				},
 				"contact_write": {
 					"description": "modify your contact information",
 					"id": "contact_write"
@@ -390,14 +266,6 @@
 				"contact_write": {
 					"description": "modify your contact information",
 					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
-				},
-				"lead_write": {
-					"description": "create and update your leads",
-					"id": "lead_write"
 				}
 			}],
 			"group": [
@@ -419,18 +287,6 @@
 				"contact_read": {
 					"description": "see contact events",
 					"id": "contact_read"
-				},
-				"contact_write": {
-					"description": "modify your contact information",
-					"id": "contact_write"
-				},
-				"lead_read": {
-					"description": "see your leads",
-					"id": "lead_read"
-				},
-				"lead_write": {
-					"description": "create and update your leads",
-					"id": "lead_write"
 				}
 			}],
 			"group": [
