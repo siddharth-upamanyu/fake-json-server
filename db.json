@@ -31,7 +31,7 @@
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
-				}
+				},
 				"lead_write": {
 					"description": "create and update your leads",
 					"id": "lead_write"
@@ -56,7 +56,7 @@
 				"contact_read": {
 					"description": "see contact events",
 					"id": "contact_read"
-				}
+				},
 				"lead_write": {
 					"description": "create and update your leads",
 					"id": "lead_write"
@@ -186,7 +186,7 @@
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
-				}
+				},
 				"lead_write": {
 					"description": "create and update your leads",
 					"id": "lead_write"
