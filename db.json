@@ -10,12 +10,12 @@
 			"logo": {
 				"url": "/static/img/red-logo.jpg"
 			},
-			"permissions": [{
+			"permissions": [
 				"lead_write": {
 					"description": "create and update your leads",
 					"id": "lead_write"
 				}
-			}],
+			],
 			"group": [
 				"crm"
 			]
@@ -27,7 +27,7 @@
 			"logo": {
 				"url": "/static/img/ace_logo.jpg"
 			},
-			"permissions": [{
+			"permissions": [
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
@@ -36,7 +36,7 @@
 					"description": "create and update your leads",
 					"id": "lead_write"
 				}
-			}],
+			],
 			"group": [
 				"crm"
 			]
@@ -48,7 +48,7 @@
 			"logo": {
 				"url": "https://www.reliancenetwork.com/reliancenetwork/img/logo.png"
 			},
-			"permissions": [{
+			"permissions": [
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
@@ -61,7 +61,7 @@
 					"description": "create and update your leads",
 					"id": "lead_write"
 				}
-			}],
+			],
 			"group": [
 				"crm"
 			]
@@ -73,7 +73,7 @@
 			"logo": {
 				"url": "https://images-static.moxiworks.com/static/images/br/moxi/MoxiWorks_logo_lightBG-300x65.png"
 			},
-			"permissions": [{
+			"permissions": [
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
@@ -82,7 +82,7 @@
 					"description": "see contact events",
 					"id": "contact_read"
 				}
-			}],
+			],
 			"group": [
 				"crm"
 			]
@@ -94,7 +94,7 @@
 			"logo": {
 				"url": "https://cdn.adwerx.com/assets/v2/images/logos/header_logos/adwerx-header-logo@2x-e951094f78.png"
 			},
-			"permissions": [{
+			"permissions": [
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
@@ -103,7 +103,7 @@
 					"description": "create and update your leads",
 					"id": "lead_write"
 				}
-			}],
+			],
 			"group": [
 				"featured",
 				"marketing"
@@ -116,7 +116,7 @@
 			"logo": {
 				"url": "http://www.chalkdigital.com/wp-content/uploads/2016/07/CD-New.png"
 			},
-			"permissions": [{
+			"permissions": [
 				"contact_write": {
 					"description": "modify your contact information",
 					"id": "contact_write"
@@ -129,7 +129,7 @@
 					"description": "create and update your leads",
 					"id": "lead_write"
 				}
-			}],
+			],
 			"group": [
 				"featured",
 				"marketing"
@@ -142,7 +142,7 @@
 			"logo": {
 				"url": "https://www.marketleader.com/wp-content/uploads/2016/05/mastheadLogo.png"
 			},
-			"permissions": [{
+			"permissions": [
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
@@ -151,7 +151,7 @@
 					"description": "see contact events",
 					"id": "contact_read"
 				}
-			}],
+			],
 			"group": [
 				"featured"
 			]
@@ -163,12 +163,12 @@
 			"logo": {
 				"url": "https://imprev.com/wp-content/uploads/2017/09/logo.png"
 			},
-			"permissions": [{
+			"permissions": [
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
 				}
-			}],
+			],
 			"group": [
 				"featured",
 				"marketing"
@@ -182,7 +182,7 @@
 				"url": "https://scontent-sjc3-1.cdninstagram.com/vp/a6fe756b4bdc288e4b59392b674b7823/5D17B586/t51.2885-19/s320x320/51053511_2291097917776179_4030393561059950592_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
 				"backgroundColor": "black"
 			},
-			"permissions": [{
+			"permissions": [
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
@@ -191,7 +191,7 @@
 					"description": "create and update your leads",
 					"id": "lead_write"
 				}
-			}],
+			],
 			"group": [
 				"featured",
 				"marketing"
@@ -204,7 +204,7 @@
 			"logo": {
 				"url": "https://www.docebo.com/wp-content/uploads/2017/06/logo_docebo_color.svg"
 			},
-			"permissions": [{
+			"permissions": [
 				"contact_write": {
 					"description": "modify your contact information",
 					"id": "contact_write"
@@ -217,7 +217,7 @@
 					"description": "create and update your leads",
 					"id": "lead_write"
 				}
-			}],
+			],
 			"group": [
 				"paperless"
 			]
@@ -229,7 +229,7 @@
 			"logo": {
 				"url": "https://roqlogic.com/wp-content/uploads/2018/02/red-roq-grey-1-260x61.png"
 			},
-			"permissions": [{
+			"permissions": [
 				"contact_write": {
 					"description": "modify your contact information",
 					"id": "contact_write"
@@ -242,7 +242,7 @@
 					"description": "create and update your leads",
 					"id": "lead_write"
 				}
-			}],
+			],
 			"group": [
 				"marketing"
 			]
@@ -254,7 +254,7 @@
 			"logo": {
 				"url": "https://blog.narrpr.com/wp-content/uploads/2012/08/2015-RPR-Logo_01.png"
 			},
-			"permissions": [{
+			"permissions": [
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
@@ -267,7 +267,7 @@
 					"description": "modify your contact information",
 					"id": "contact_write"
 				}
-			}],
+			],
 			"group": [
 				"marketing"
 			]
@@ -279,7 +279,7 @@
 			"logo": {
 				"url": "https://rismediacontentsolutions.com/img/rismedia_ContentSolutions-logo.jpg"
 			},
-			"permissions": [{
+			"permissions": [
 				"profile": {
 					"description": "view agent & office profiles",
 					"id": "profile_read"
@@ -288,7 +288,7 @@
 					"description": "see contact events",
 					"id": "contact_read"
 				}
-			}],
+			],
 			"group": [
 				"featured",
 				"marketing"
